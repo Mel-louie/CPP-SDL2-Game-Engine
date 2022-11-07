@@ -1,0 +1,2 @@
+all:
+	c++ main.cpp src/*.cpp -std=c++20 -I /Library/Frameworks/SDL2.framework/Headers -I /Library/Frameworks/SDL2_image.framework/Headers -I /Library/Frameworks/SDL2_ttf.framework/Headers -I ./include/ -F /Library/Frameworks -framework SDL2 -framework SDL2_image -framework SDL2_ttf
